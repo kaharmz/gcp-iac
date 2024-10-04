@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    credentials = "/mnt/c/Users/kahar/Documents/GitHub/gcp-iacupheld-setting-436613-s1-8a3224d9e026.json"
+    credentials = "/home/kahar/gcp-iac/upheld-setting-436613-s1-8a3224d9e026.json"
     bucket     = "inf-state-bucket"
     # Optional: use a specific path within the bucket
     prefix     = "terraform/state"  
