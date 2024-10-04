@@ -12,6 +12,7 @@ provider "google" {
   region      = var.region
 }
 
+#Module vm
 module "vm" {
   source              = "../../modules/vm"
   project_id          = var.project_id
@@ -23,6 +24,7 @@ module "vm" {
   network             = var.network
 }
 
+#Module gke
 module "gke" {
   source              = "../../modules/gke"
   project_id          = var.project_id
