@@ -1,2 +1,4 @@
 *.json
 */home/kahar/devops-inf-gcp-live/dev/.terraform.lock.hcl
+*.tfstate
+/home/kahar/devops-inf-gcp/live/dev/.terraform/providers/registry.terraform.io/hashicorp/google/6.5.0/linux_amd64
